@@ -1,4 +1,5 @@
 # Edit this configuration file to define what should be installed on
+
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
@@ -77,7 +78,7 @@
   };
 
   # Enable CUPS to print documents.
-  services.printing.enable = true;
+ # services.printing.enable = true;
 
   # Enable sound with pipewire.
   sound.enable = true;
@@ -98,48 +99,15 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
     services.xserver.excludePackages=[pkgs.xterm];
-  # services.xserver.libinput.enable = true;
+    # services.xserver.libinput.enable = true;
 
-
-
-systemd.user.timers."numlockx_boot" = {
-wantedBy = [ "timers.target" ];
-timerConfig = {
-OnStartupSec = "1us";
-AccuracySec = "1us";
-Unit = "numlockx.service";
-};
-};
-
-systemd.user.timers."numlockx_sleep" = {
-wantedBy = [
-"suspend.target"
-"hibernate.target"
-"hybrid-sleep.target"
-"suspend-then-hibernate.target"
-];
-after = [
-"suspend.target"
-"hibernate.target"
-"hybrid-sleep.target"
-"suspend-then-hibernate.target"
-];
-timerConfig = {
-AccuracySec = "1us";
-Unit = "numlockx.service";
-};
-};
-
-systemd.user.services."numlockx" = {
-script = ''
-${pkgs.numlockx}/bin/numlockx on
-'';
-serviceConfig = {
-Type = "oneshot"; # "simple" für Prozesse, die weiterlaufen sollen
-};
-};
-
-
+  # sessionVariables
+  environment.sessionVariables=rec{
+     XDG_BIN_HOME="$HOME/.local/bin";
+     PATH=[
+	"${XDG_BIN_HOME}"
+     ];
+  };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.sumit_pathak = {
@@ -158,24 +126,58 @@ Type = "oneshot"; # "simple" für Prozesse, die weiterlaufen sollen
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-     pkgs.vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-     pkgs.firefox
-     pkgs.graphviz
-     pkgs.git
-     pkgs.neofetch
-     pkgs.ntfs3g
-     pkgs.python311
-     pkgs.python311Packages.pip
-     pkgs.pipx
-     pkgs.fuse
-     pkgs.numlockx
-     pkgs.vlc
-     pkgs.libreoffice-qt
-     pkgs.vscode
-     pkgs.gimp-with-plugins
-     pkgs.htop
-     pkgs.dos2unix
+     firefox
+     graphviz
+     git
+     neofetch
+     ntfs3g
+     python311
+     python311Packages.pip
+     pipx
+     fuse
+     numlockx
+     vlc
+     vscode
+     gnugrep
+     htop
+     dos2unix
+     powertop
+     power-profiles-daemon
+     thermald
+     neovim
+     starship
+     autojump
+     cmatrix
+     gnomeExtensions.control-blur-effect-on-lock-screen
+     gnomeExtensions.blur-my-shell
+     gnome.gdm
+     gnome.gnome-shell-extensions
+     gnomeExtensions.user-themes
+     gnomeExtensions.vitals
+     gnomeExtensions.dash-to-dock
+     gnomeExtensions.appindicator
+     gnome.gnome-tweaks
+     gnomeExtensions.tweaks-in-system-menu
+     gnome.mutter43
 ];
+
+
+# Fonts
+  fonts={
+     enableDefaultFonts=true;
+     fonts=with pkgs;[
+	jetbrains-mono
+	fira-code
+	hack-font
+        (nerdfonts.override {fonts=["JetBrainsMono"];})
+    ];
+     fontconfig={
+	enable=true;
+	defaultFonts={
+	   monospace=["Hack JetBrainsMono FiraCode"];
+	};
+      };
+  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
