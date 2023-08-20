@@ -126,6 +126,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+     gcc
      firefox
      graphviz
      git
@@ -140,7 +141,6 @@
      vscode
      gnugrep
      htop
-     dos2unix
      powertop
      power-profiles-daemon
      thermald
@@ -148,19 +148,24 @@
      starship
      autojump
      cmatrix
-     gnomeExtensions.control-blur-effect-on-lock-screen
      gnomeExtensions.blur-my-shell
      gnome.gdm
      gnome.gnome-shell-extensions
      gnomeExtensions.user-themes
      gnomeExtensions.vitals
      gnomeExtensions.dash-to-dock
-     gnomeExtensions.appindicator
      gnome.gnome-tweaks
-     gnomeExtensions.tweaks-in-system-menu
      gnome.mutter43
+     zsh
+     oh-my-zsh
+     kitty
+     gnumake
+     whatsapp-for-linux
 ];
 
+programs.zsh.enable = true;
+environment.shells = with pkgs; [ zsh ];
+users.defaultUserShell = pkgs.zsh;
 
 # Fonts
   fonts={
