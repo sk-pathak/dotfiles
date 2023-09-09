@@ -1,6 +1,4 @@
-# Edit this configuration file to define what should be installed on
-
-# your system.  Help is available in the configuration.nix(5) man page
+# Edit this configuration file to define what should be installed on your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
 { config, pkgs, ... }:
@@ -9,12 +7,38 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+
+      (let rev = "main"; in import (builtins.fetchTarball {
+        url = "https://gitlab.com/VandalByte/darkmatter-grub-theme/-/archive/${rev}/darkmatter-grub-theme-${rev}.tar.gz";
+	sha256 = "1i6dwmddjh0cbrp6zgafdrji202alkz52rjisx0hs1bgjbrbwxdj";
+        }))
+
     ];
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.systemd-boot.configurationLimit=5;
-  boot.loader.efi.canTouchEfiVariables = true;
+  #boot.loader.systemd-boot.enable = true;
+  #boot.loader.systemd-boot.configurationLimit=5;
+  #boot.loader.efi.canTouchEfiVariables = true;
+
+  boot.loader.efi.canTouchEfiVariables=true;
+  boot.loader.timeout=20;
+  boot.loader.grub={
+     devices=["nodev"];
+     efiSupport=true;
+     enable=true;
+     useOSProber=true;
+     default=2;
+     configurationLimit=10;
+     darkmatter-theme = {
+	enable = true;
+	style = "nixos";
+	icon = "color";
+	resolution = "1080p";
+     };
+  };
+
+
+
 
   # NTFS
   boot.supportedFilesystems=["ntfs"];
@@ -155,17 +179,22 @@
      gnomeExtensions.vitals
      gnomeExtensions.dash-to-dock
      gnome.gnome-tweaks
-     gnome.mutter43
      zsh
      oh-my-zsh
      kitty
      gnumake
      whatsapp-for-linux
+     nixos-grub2-theme
+     cmake
+     flatpak
+     xdg-desktop-portal
+     xdg-desktop-portal-gnome
 ];
 
-programs.zsh.enable = true;
-environment.shells = with pkgs; [ zsh ];
-users.defaultUserShell = pkgs.zsh;
+ # zsh
+  programs.zsh.enable = true;
+  environment.shells = with pkgs; [ zsh ];
+  users.defaultUserShell = pkgs.zsh;
 
 # Fonts
   fonts={
