@@ -3,19 +3,70 @@
 
 { config, pkgs, ... }:
 
+let unstable=import <unstable> {config={ allowUnfree=true;};};
+in
+
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+  imports =[
+     # Include the results of the hardware scan.
+     ./hardware-configuration.nix
 
-      (let rev = "main"; in import (builtins.fetchTarball {
-        url = "https://gitlab.com/VandalByte/darkmatter-grub-theme/-/archive/${rev}/darkmatter-grub-theme-${rev}.tar.gz";
-	sha256 = "1i6dwmddjh0cbrp6zgafdrji202alkz52rjisx0hs1bgjbrbwxdj";
-        }))
-
+     (let rev="main"; in import(builtins.fetchTarball{
+     url="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/archive/${rev}/darkmatter-grub-theme-${rev}.tar.gz";sha256 = "1i6dwmddjh0cbrp6zgafdrji202alkz52rjisx0hs1bgjbrbwxdj";}))
     ];
 
-  # Bootloader.
+
+
+
+  # PACKAGES
+  environment.systemPackages = with pkgs; [
+     gcc
+     firefox
+     graphviz
+     git
+     neofetch
+     ntfs3g
+     python311
+     python311Packages.pip
+     pipx
+     fuse
+     numlockx
+     vlc
+     unstable.vscode
+     gnugrep
+     htop
+     powertop
+     power-profiles-daemon
+     thermald
+     neovim
+     starship
+     autojump
+     cmatrix
+     gnomeExtensions.blur-my-shell
+     gnome.gdm
+     gnome.gnome-shell-extensions
+     gnomeExtensions.user-themes
+     gnomeExtensions.vitals
+     gnomeExtensions.dash-to-dock
+     gnome.gnome-tweaks
+     gnome.gnome-themes-extra
+     zsh
+     oh-my-zsh
+     kitty
+     gnumake
+     nixos-grub2-theme
+     cmake
+     flatpak
+     xdg-desktop-portal
+     xdg-desktop-portal-gnome
+     docker
+   ];
+   virtualisation.docker.enable=true;
+
+
+
+
+  # BOOTLOADER
   #boot.loader.systemd-boot.enable = true;
   #boot.loader.systemd-boot.configurationLimit=5;
   #boot.loader.efi.canTouchEfiVariables = true;
@@ -59,6 +110,10 @@
      options=["force" "rw" "uid=1000" "nofail"];
   };
 
+
+
+
+  # NETWORK
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -69,6 +124,9 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+
+
+  # TIME
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";
   time.hardwareClockInLocalTime=true;
@@ -88,6 +146,8 @@
     LC_TIME = "en_IN";
   };
 
+
+  # XSERVER
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
@@ -102,8 +162,10 @@
   };
 
   # Enable CUPS to print documents.
- # services.printing.enable = true;
+  # services.printing.enable = true;
 
+
+  
   # Enable sound with pipewire.
   sound.enable = true;
   hardware.pulseaudio.enable = false;
@@ -122,16 +184,26 @@
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-    services.xserver.excludePackages=[pkgs.xterm];
+    services.xserver.excludePackages=[
+	pkgs.xterm
+	pkgs.gnome-console
+    ];
     # services.xserver.libinput.enable = true;
 
+
+
+
   # sessionVariables
+  environment.variables={TERMINAL="kitty";};
   environment.sessionVariables=rec{
      XDG_BIN_HOME="$HOME/.local/bin";
      PATH=[
 	"${XDG_BIN_HOME}"
      ];
   };
+
+
+
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.sumit_pathak = {
@@ -144,59 +216,23 @@
     ];
   };
 
+
+
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+  system.autoUpgrade.enable=true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-     gcc
-     firefox
-     graphviz
-     git
-     neofetch
-     ntfs3g
-     python311
-     python311Packages.pip
-     pipx
-     fuse
-     numlockx
-     vlc
-     vscode
-     gnugrep
-     htop
-     powertop
-     power-profiles-daemon
-     thermald
-     neovim
-     starship
-     autojump
-     cmatrix
-     gnomeExtensions.blur-my-shell
-     gnome.gdm
-     gnome.gnome-shell-extensions
-     gnomeExtensions.user-themes
-     gnomeExtensions.vitals
-     gnomeExtensions.dash-to-dock
-     gnome.gnome-tweaks
-     zsh
-     oh-my-zsh
-     kitty
-     gnumake
-     whatsapp-for-linux
-     nixos-grub2-theme
-     cmake
-     flatpak
-     xdg-desktop-portal
-     xdg-desktop-portal-gnome
-];
 
  # zsh
   programs.zsh.enable = true;
   environment.shells = with pkgs; [ zsh ];
   users.defaultUserShell = pkgs.zsh;
 
-# Fonts
+
+
+
+ # Fonts
   fonts={
      enableDefaultFonts=true;
      fonts=with pkgs;[
@@ -212,6 +248,9 @@
 	};
       };
   };
+
+
+
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
