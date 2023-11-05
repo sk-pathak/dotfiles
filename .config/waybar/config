@@ -1,0 +1,117 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-bottom": 0,
+    "modules-left": [
+      "clock",
+      "hyprland/workspaces",
+      "custom/updates",
+      "tray",
+      ],
+    "modules-center": [
+      "hyprland/window",
+      ],
+    "modules-right": [
+      "network",
+      "temperature",
+      "memory",
+      "cpu",
+      "pulseaudio",
+      "custom/powermenu",
+    ],
+    "tray": {
+      "icon-size": 24,
+      "spacing": 10
+    },
+    "hyprland/window": {
+      "format": " {}",
+      "rewrite": {
+          "(\\d\\. )?(.*) - Chromium": "<span color=\"#4285F4\"></span>  $2 ",
+          "nvim (.*)": "<span color=\"#57A143\"> </span>  $1",
+          "nvim": "<span color=\"#57A143\">  Neovim</span> ",
+          "vim (.*)": "<span color=\"#57A143\"> </span>  $1",
+          "vim": "<span color=\"#57A143\">  Neovim</span> ",
+          "ranger(.*)": "<span color=\"#ffffff\"> </span>  $1",
+          "kitty (.*)": "<span color=\"#ffffff\"> </span>  $1",
+          "Search(.*)": "<span color=\"#a855f7\"> </span>  Search$1",
+      },
+      "separate-outputs": true
+    },
+    "hyprland/submap": {
+      "format": "✌️ {}",
+      "max-length": 8,
+      "tooltip": true
+    },
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+        "1": "󰲠",
+        "2": "󰲢",
+        "3": "󰲤",
+        "4": "󰲦",
+        "5": "󰲨",
+        "6": "󰲪",
+        "7": "󰲬",
+        "8": "󰲮",
+        "9": "󰲰",
+        "10": "󰿬",
+        "-99": "",
+        "active": "",
+        "default": ""
+      }
+    },
+    "network": {
+      "interface": "wlan0",
+      "tooltip-format-ethernet": "{ifname} ",
+      "interval": 2,
+      "format": "   {bandwidthDownBits}     {bandwidthUpBits}",
+      "on-click": "kitty -e nmtui"
+    },
+    "temperature": {
+      "format": "{icon} {temperatureC}°C",
+      "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+      "critical-threshold": 80,
+      "format-icons": ["", "", ""]
+    },
+    "memory": {
+      "format": "  {}%",
+      "tooltip": "false"
+    },
+    "cpu": {
+      "format": "  {usage}%",
+      "tooltip": "false"
+    },
+    "custom/powermenu": {
+      "format": "",
+      "tooltip": false,
+      "on-click": "exec wlogout -p layer-shell",
+    },
+    "custom/updates": {
+      "format": "<span color=\"#61afef\"> </span> {}",
+      "tooltip": false,
+      "interval": 3600,
+      "exec": "exec $HOME/.config/waybar/checkupdate.sh"
+    },
+    "pulseaudio": {
+      "format": "{volume}% {icon}",
+      "format-bluetooth": "{volume}% {icon}",
+      "format-muted": " ",
+      "format-icons": {
+          "headphone": " ",
+          "hands-free": "",
+          "headset": " ",
+          "phone": " ",
+          "portable": " ",
+          "car": " ",
+          "default": [" ", " "]
+      },
+      "scroll-step": 5,
+      "on-click": "pavucontrol"
+    },
+    "clock": {
+      "format": "<span color=\"#56b6c2\"> </span> {:%H:%M}",
+      "interval": 60,
+      "tooltip": true,
+      "tooltip-format": "{:%d %B %H:%M}"
+    },
+}
