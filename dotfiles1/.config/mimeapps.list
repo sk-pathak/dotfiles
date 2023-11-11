@@ -1,0 +1,11 @@
+[Added Associations]
+inode/directory=thunar.desktop;
+application/x-xz-compressed-tar=userapp-tar -xvf-GPIND2.desktop;thunar.desktop;
+image/png=viewnior.desktop;sxiv.desktop;
+image/jpeg=viewnior.desktop;
+application/gzip=nvim.desktop;
+
+[Default Applications]
+application/x-xz-compressed-tar=thunar.desktop
+image/jpeg=viewnior.desktop
+application/gzip=nvim.desktop

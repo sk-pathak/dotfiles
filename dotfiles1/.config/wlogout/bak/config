@@ -1,0 +1,40 @@
+{
+    "label" : "lock",
+    "action" : "sleep 1; swaylock",
+    "text" : "Lock"
+    "keybind" : "e"
+}
+
+{
+    "label" : "hibernate",
+    "action" : "sleep 1; systemctl hibernate",
+    "text" : "Hibernate"
+    "keybind" : "h"
+}
+
+{
+    "label" : "logout",
+    "action" : "sleep 1; hyprctl dispatch exit",
+    "text" : "Logout"
+    "keybind" : "l"
+}
+
+{
+    "label" : "shutdown",
+    "action" : "sleep 1; shutdown now",
+    "text" : "Shutdown"
+    "keybind" : "s"
+}
+
+{
+    "label" : "suspend",
+    "action" : "loginctl suspend",
+    "text" : "Suspend"
+}
+
+{
+    "label" : "reboot",
+    "action" : "sleep 1; reboot",
+    "text" : "Reboot"
+    "keybind" : "r"
+}
