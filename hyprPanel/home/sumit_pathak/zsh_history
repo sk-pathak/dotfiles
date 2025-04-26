@@ -1,0 +1,1763 @@
+w
+showkey
+vim aliasrc
+ls /
+mkdir ~/.config/zsh
+mv aliasrc ~/.config/zsh/.aliasrc
+vim zshhistory
+rm zshhistory
+rm .bash_history
+yay -Rns bun
+yay bun
+vim .config/zsh
+ex
+rg --color
+rg --color=auto
+cd muzo
+cd github/muzo
+yay omz
+yay fzf --cleanafter
+yay zoxide --cleanafter
+source .zshrc
+cd /usr/share
+zoxide
+z 
+z
+z ~
+which z
+zoxide --help
+zoxide init --help
+cd ~/.config/nvim
+vim .zcompdump
+vim .aliases
+rm .aliases
+vim .bash_logout
+vim .bash_profile
+rm .bash_*
+vim .dmrc
+rm -rf .floorp
+vim key.log
+mv github projects
+ls projects
+vim .dotnet
+vim .redhat/anonymousId
+rm -rf .redhat
+vim .vim/.netrwhist
+vim .ssh/known_hosts
+vim config
+cd Obsidianite
+vim theme.css
+cd .config/nvim
+cd lua
+vim kickstart/plugins/cmp.lua
+vim bg.css
+cd /tmp
+cd ~/.cache
+cd nvim config
+cd nvim init
+cd nvim init.lua
+cd config nvim
+yt-dlpp 'https://manifest-gcp-us-east1-vop1.fastly.mux.com/vsNEXdxRhHBkLap9dXy02W5hezVYjzak200dYdzYTCPRAEMIRKElSh1PKhnnMMj1hix8etC3hV7CWdsc5yXlQwz1UtNb01MQ5nc/rendition.m3u8?cdn=fastly&expires=1744372800&rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjdmOTA0NDBfOWE1MzVhY2M1MThiM2VmNGFjYWYxNjdiZjBkMDhmMmU4NGJhOGYxMzY4MjM5ZjUyOTBjMTI1ZTQwNjQzNWYwMg=='
+chmod +x cleanup
+cleanup
+yay -Rns gephi
+which yay
+pacman -Qo $(which yay)
+yay -Q | grep yay
+rm ./*.part
+rm -y ./*.part
+rm -f ./*.part
+vim Network_science.ipynb
+python -m venv .
+source bin/activate
+deactivate
+ls EFI
+vim grubenv
+cd EFI
+cd dell
+cd /etc/
+vim udisks2/udisks2.conf
+vim passwd
+vim sudo.conf
+vim fstab
+cd boot
+vim grub/grub.cfg
+efibootmgr -v
+efibootmgr --help
+yay -Q | grep hypr
+yay -Q | grep way
+ps -e | grep ags
+ps -e | grep pane
+ps -e | grep bar
+cd .config/hypr
+cd hyprland
+sl
+ls ../shaders
+git clone git@github.com:sk-pathak/dotfiles.git
+mkdir dotfiles3
+cd dotfiles3
+pacman -Qqem > aurlist.txt
+pacman -Qqen > pkglist.txt | tee
+mkdir /etc
+mkdir etc
+mkdir packages
+mv aurlist.txt pkglist.txt packages
+cp sumit_pathak.face.icon ~/
+rm zsh_history sumit_pathak.face.icon
+sudo rm zsh_history sumit_pathak.face.icon
+vim host.conf
+vim hosts
+svim hosts
+vim mkinitcpio.conf
+svim mkinitcpio.conf
+vim pacman.conf
+svim pacman.conf
+yay -S chaotic-mirrorlist
+yay aur
+yay chaotic
+rm -f host.conf hosts mkinitcpio.conf pacman.conf
+sudo rm -f host.conf hosts mkinitcpio.conf pacman.conf
+vim profile
+yay zen-browser
+sudo cp -rf .zen ~/
+rm ./.bash_*
+rm ~/.bash_*
+rm ./.bash*
+rm ~/.bash*
+la ~
+rm pacman.conf.new
+sudo rm pacman.conf.new
+yay -S sof-firmware
+yay -S pipewire
+svim aurlist.txt
+svim pkglist.txt
+yay btop
+yay cava
+yay -S docker docker-compose
+yay -S mpd ncmpcpp
+yay -S mpv
+yay -S nginx
+yay -S obsidian obs-studio
+yay -S tldr
+yay -S yt-dlp yazi wget unzip
+yay -S vesktop
+yay -Rns npm
+yay -S ripgrep
+yay -S redis rsync nmap
+yay -S postgresql
+yay nicotine
+yay -Q | grep api
+yay clang
+yay thunar
+thunar &
+ps -e | grep thun
+yay gvfs
+sudo mv .dmrc .fonts.conf .gitconfig .git-credentials .gtkrc-2.0 key.log .p10k.zsh .zcompdump .zprofile ~/
+sudo mv mpd.conf mpdscribble.conf profile gtk-3.0 /etc
+sudo mv -f mpd.conf mpdscribble.conf profile gtk-3.0 /etc
+sudo mv -rf gtk-3.0 /etc
+sudo rm -rf /etc/gtk-3.0
+sudo mv -f gtk-3.0 /etc
+mv .ssh .ncmpcpp .mpd ~
+sudo mv .ssh .ncmpcpp .mpd ~
+sudo rm -rf .zen
+sudo rm -rf .zshrc
+yay -S numlockx
+numlock
+numlockx --help
+numlockx on
+numlockx
+yay -S jetbrain
+yay jetbrain
+cd /etc
+cd grub.d
+svim grub.cfg
+mkinitcpio -p linux
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+vim grub.cfg
+rm -rf simple-update-notifier
+mkdir temp
+sudo mv .zen temp
+mv .zen temp
+rm -rf temp
+sudo rm -rf temp
+cd D:
+cd D
+svim ~/.config/zsh/.aliasrc
+vi
+ip
+ip addr
+ls /mnt
+D:
+git clone https://github.com/tr1xem/hyprfabricated.git
+yay -S plasma-browser-integration
+vim main.
+vim config/config.py
+warp-cli disconnect
+yay -S gparted
+gparted
+sudo gparted
+yay -Rns gparted
+fdisk
+mount -t ntfs3 /dev/sda2 /mnt/D
+sudo mount -t ntfs3 /dev/sda2 /mnt/D
+umount /dev/sda2
+sudo umount /dev/sda2
+sudo mount /dev/sda3 /mnt/D
+sudo mkfs -t ntfs /dev/sda3
+sudo mkfs -t ntfs3 /dev/sda3
+yay gnome-disks
+su -
+yay mkntfs
+yay -Ss mkntfs
+yay ntfs-3g
+sudo mkfs.ntfs /dev/sda3
+mount -t ntfs3 /dev/sda3 /mnt/D
+cfdisk
+umount /dev/sda3
+sudo mount -t ntfs3 /dev/sda3 /mnt/D
+gnome-disks
+sudo umount /dev/sda3
+sudo mkfs.ext4 /dev/sda3
+sudo cfdisk
+vim /etc/fstab
+cd /mnt
+mv D part1
+sudo mv D part1
+sudo mv E part2
+sudo mkdir part3
+sudo mount -t ntfs3 /dev/sda2 /mnt/part1
+sudo mount -t ntfs3 /dev/sda4 /mnt/part3
+sudo mount /dev/sda3 /mnt/part2
+yay genfstab
+yay --help
+sudo pacman -F genfstab
+sudo pacman -Fy genfstab
+yay arch-install-scripts
+genfstab -U
+genfstab -U /mnt
+id
+sudo mount -a
+sudo pacman -S jmtpfs gvfs-mtp libmtp mtpfs\
+
+yay jmtpfs
+mkdir /run/media/android
+sudo mkdir /run/media/android
+jmtpfs /run/media/android
+ls /run/media/android
+mkdir ~/android
+fusermount -u /run/media/android\
+
+jmtpfs ~/android
+udevadm info -a -p $(udevadm info -q path -n /dev/bus/usb/$(lsusb | grep -i 'android' | awk '{print $2 "/" $4}' | sed 's/://'))\
+
+yay lsusb
+yay usbutils
+mkdir -p ~/.config/systemd/user
+svim ~/.config/systemd/user/android-mtp.mount
+systemctl --user enable android-mtp.mount
+fusermount -u ~/android\
+
+mkdir bin
+vim unmount-android
+chmod +x unmount-android
+lsusb
+sudo udevadm control --reload-rules\
+
+sudo loginctl enable-linger $USER\
+
+loginctl show-user $USER\
+
+systemctl --user start android-mtp.mount\
+
+svim ~/.config/systemd/user/android-mtp-mount.service
+svim ~/.config/systemd/user/android-mtp-unmount.service
+rm ~/.config/systemd/user/android-mtp.mount
+systemctl --user daemon-reload\
+
+systemctl --user start android-mtp-mount.service\
+
+systemctl --user start android-mtp-unmount.service\
+
+ls android
+moutn
+svim /etc/udev/rules.d/99-android-mtp-remove.rules
+journalctl --user -u android-mtp.mount\
+
+journalctl --user -u android\
+
+journalctl --user -u android-mtp.service\
+
+udevadm monitor --environment --udev\
+
+systemctl --user status android-mtp-mount.service\
+
+vim /usr/local/bin/mount-android.sh
+svim /usr/local/bin/mount-android.sh
+sudo chmod +x /usr/local/bin/mount-android.sh\
+
+svim /etc/udev/rules.d/99-android-mtp.rules
+sudo udevadm control --reload-rules
+systemctl --user daemon-reexec
+systemctl --user daemon-reload
+mount | grep android\
+
+journalctl --user -u android-mtp-unmount.service\
+
+journalctl --user -u android-mtp-mount.service\
+
+hyprctl moitors all
+hyprctl monitors all
+cd hyprfabricated
+curl -fsSL https://raw.githubusercontent.com/tr1xem/hyprfabricated/main/install.sh | bash
+rm -rf /var/cache/pacman/*
+sudo rm -rf /var/cache/pacman/*
+curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | bash
+rm -rf hyprfabricated
+cd Ax-Shell
+logout
+ps -e | grep py
+ps -e | grep uw
+ps -e | grep uwsm
+ps -e | grep pyt
+ps -e | grep ma
+cd .config/Ax-Shell
+vim config/data.py
+yay gtk
+rm -rf .gtkrc-2.0
+vim main.py
+fabric-cli
+fabric-cli la
+fabric-cli lw
+fabric-cli exec ~/.config/Ax-Shell/main.
+fabric-cli exec ~/.config/Ax-Shell/main.py
+ps -e | grep fab
+yay -Q | grep fabr
+uwsm -- app python ~/.config/Ax-Shell/main.py > /dev/null 2>&1 & disown
+ps -e | grep 3939
+uwsm -- app python ~/.config/Ax-Shell/main.py > /dev/null 2>&1
+ps -e | grep 3109
+uwsm -- app python ~/.config/Ax-Shell/main.py 
+rm -rf Ax-Shell
+vim hypr/hyprland.conf
+swww
+swww img
+swww img /mnt/part1/Camera/Wallpaper/lastnigold_Incheon\ \[3840x2160\]_13thk9m.jpg
+yay -Rns fabric-cli-git fabric-cli-git-debug python-fabric-git
+yay -Rns gray-git
+yay -Rs gray-git
+yay -Rn gray-git
+yay -Rn matugen-bin matugen-bin-debug gpu-screen-recorder gnome-bluetooth-3.0 hyprlock hypridle tesseract 
+yay -Rn matugen-bin matugen-bin-debug gpu-screen-recorder gnome-bluetooth-3.0 hyprlock hypridle tesseract tesseract-data-afr tesseract-data-osd
+yay -Rn tmux
+yay -Rn python-watchdog
+yay -Rn uwsm cantarell-fonts wlinhibit grimblast-git wl-clipboard hyprsunset hyprpicker
+yay -Rn uwsm wlinhibit grimblast-git wl-clipboard cliphist hyprsunset hyprpicker
+yay -Rn wlinhibit grimblast-git hyprsunset hyprpicker
+yay -Rns aquamarine-git-debug wlinhibit-debug python-build
+yay -Rns $(pacman -Qq | grep -- '-debug$')\
+
+yay -Rn grim leptonica gsound python-installer
+git clone --depth 1 https://github.com/HyDE-Project/HyDE ~/HyDE
+rm .current.wall
+rm .face.icon
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com\
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'\
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+sudo pacman -Sy && sudo powerpill -Su && yay
+yay powerpill
+sudo pacman -Sy && sudo powerpill -Su && yay -Su
+chaotic-mirrorlist
+powerpill -Syu
+sudo powerpill -Syu
+svim /etc/pacman.conf
+yay -Syu --combinedupgrade --save
+yay --editmenu --save 
+yay -Rns powerpill
+vim .config/yay/config.json
+yay aria2
+vim global_fn.sh
+vim install_pst.sh
+vim install_aur.sh
+vim system_ctl.lst
+vim extra/install_mod.sh
+yay parallel
+git clone --depth=1 https://github.com/JaKooLit/Arch-Hyprland.git ~/Arch-Hyprland
+cd .config/kitty
+cp -r current-theme.conf kitty kitty-themes scroll_mark.py search.py theme.conf backup
+cp -r current-theme.conf kitty.conf kitty-themes scroll_mark.py search.py theme.conf backup
+cp -yr current-theme.conf kitty.conf kitty-themes scroll_mark.py search.py theme.conf backup
+cp -fr current-theme.conf kitty.conf kitty-themes scroll_mark.py search.py theme.conf backup
+sudo cp -r current-theme.conf kitty.conf kitty-themes scroll_mark.py search.py theme.conf backup
+cd Arch-Hyprland
+rm -rm Arch-Hyprland
+rm -rf Arch-Hyprland
+vim config-compact.jsonc
+vim config-v2.jsonc
+vim config.jsonc
+cd HyDE
+cd Scripts
+cp .zshrc .zshrc.old
+./install.sh
+vim install.sh
+vim install_pre.sh
+vim themepatcher.lst
+vim themepatcher.sh
+find * | grep theme
+find -r * | grep theme
+grep -rnw . -e "theme"
+grep -h
+grep "theme*" .
+grep "themepatcher" .
+thunar
+cd HyDE/Scripts
+./uninstall.sh
+vim pkg_core.lst
+sudo systemctl disable sddm
+yay -Rns sddm
+rm .hyde.zshrc
+rm .zsh_history
+ll
+vim .zshenv
+rm .zshenv .viminfo .zcompdump*
+rm -rf .npm
+rm -rf .parallel
+wget https://github.com/hyprwm/Hyprland/blob/main/example/hyprland.conf
+curl -o https://github.com/hyprwm/Hyprland/blob/main/example/hyprland.conf
+curl -o hyprland.conf https://github.com/hyprwm/Hyprland/blob/main/example/hyprland.conf
+wget -h
+yay -Rn wget
+yay -S wget
+wget --help
+rm hyprland.conf
+git clone --depth=1 https://github.com/hyprwm/Hyprland/blob/main/example/hyprland.conf
+git clone --depth=1 https://github.com/hyprwm/Hyprland
+cd Hyprland/example
+cp hyprland.conf ~/.config/hypr/hyprland.conf
+rm -rf Hyprland
+yay -Qdt\
+
+rm -rf .oh-my-zsh
+yay -Rns oh-my-zsh
+shutdown
+yay -Rns ttf-*
+yay -Rns $(yay -Q | grep ttf)
+yay -Rns $(yay -Q | grep ttf | awk $1)
+yay -Rns $(yay -Q | grep ttf | awk '{print $1}')
+yay -Rns $(yay -Q | grep ttf | awk '{print $1}') --override
+yay -Rns $(yay -Q | grep ttf | awk '{print $1}') --force
+yay -Rns ttf-droid ttf-fantasque-nerd ttf-fira-code ttf-jost ttf-victor-mono
+zen-browser --private-window
+vim ~/.config/hypr/hyprland.conf
+sudo systemctl enable wapr.srv
+sudo systemctl enable warp
+sudo systemctl enable warp.srv
+warp-cli registration new
+sudo systemctl enable warp-cli
+sudo systemctl --state=active
+sudo systemctl --state=active | grep warp
+sudo systemctl enable warp-svc
+sudo systemctl start warp-svc
+warp-cli connect
+yay -Rns thunar
+yay -Rns thunar-volman thunar-archive-plugin thunar
+yay -S dolphin
+vim ~/.config/kdeglobals
+vim Desktop
+vim .zprofile
+vim fo
+vim .fonts/tabler-icons
+cd .local
+cd share
+mkdir kservices
+mv kservices kservices5
+cd kservices5
+vim ServiceMenus
+sudo rm -rf Recovery test AomeiPartAssistantPE .pnpm-store
+sudo rm -rf Openlake Projects
+cd p1
+du
+sudo du
+sudo rm -rf '$RECYCLE.BIN'
+sudo rm desktop.ini DumpStack.log.tmp
+mv more\ music more_music
+sudo mv more\ music more_music
+sudo rm -rf spotify System\ Volume\ Information
+ps -e | grep rm
+yay -Q | grep zsh
+yay -Q | grep power
+sudo du -k | sort -nr | head -n10
+fdisk -l
+sudo fdisk -l
+sudo rm -rf Programming
+sudo systemctl status syncthing
+yay syncthing
+sudo systemctl status syncthing.service
+mv tempo recovery
+sudo mv tempo recovery
+syncthing
+sudo systemctl enable --now syncthing@sumit_pathak.service
+sudo systemctl start syncthing.service
+sudo systemctl start syncthing@sumit_pathak
+sudo systemctl starstatus syncthing@sumit_pathak
+sudo systemctl status syncthing@sumit_pathak
+cd p2
+ls lost+found
+sudo ls lost+found
+rm -rf '$RECYCLE.BIN'
+sudo rm DumpStack.log DumpStack.log.tmp
+sudo rm -rf System\ Volume\ Information
+sudo rm -rf msdownld.tmp
+cd Setup
+sudo rm -rf Setup
+cd Movies
+sudo rm -rf DwnlData
+sudo rm -rf desktop.ini
+cd Videos
+mv DAV\ 4.mp4 India\ v\ Pakistan\ Part\ 2.ts VID_20170429_075622.3gp ~/Videos
+sudo mv DAV\ 4.mp4 India\ v\ Pakistan\ Part\ 2.ts VID_20170429_075622.3gp ~/Videos
+sudo rm -rf Videos
+rm Music/desktop.ini
+sudo rm Music/desktop.ini
+mv nsfw/Kpop nsfw/KPF\ Reddit\ Gfys.torrent /mnt/part2/
+sudo mv nsfw/Kpop nsfw/KPF\ Reddit\ Gfys.torrent /mnt/part2/
+yay -Ss qemu
+yay qemu
+yay ntfs-config
+sudo chown -R sumit_pathak /mnt/part2
+p2
+du -k | sort -nr | head -n10
+curl localhost:8134
+curl localhost:8192
+yay nginx
+vim HyDE/Scripts/pkg_extra.lst
+yay -Q | grep wtt
+yay -Q | grep ddcui
+yay -Q | grep xdg
+yay code
+vim HyDE/Scripts/pkg_core.lst
+udiskie
+yay -Q | grep eza
+yay -Rns eza
+yay -Rns zsh-theme-powerlevel10k-git
+yay -Rns vim
+yay -Rns pokego-bin nwg-displays nwg-look
+yay -Rns parallel libnotify jq hyprsunset
+yay -Rns parallel jq hyprsunset
+yay -S jq
+yay -Q | grep pipe
+yay -Q | grep aud
+yay -Q | grep cont
+nmcli
+rm -rf HyDE
+git clone https://github.com/Abhra00/Matuprland
+blueman-manager
+ls recovery
+cd backup
+vim .fonts.conf
+ls .scripts
+vim .p10k.zsh
+vim fastfetch/config.jsonc
+cd config fastfetch
+mkdir fastfetch
+cp ./* ~/.config/fastfetch
+cp ./fastfetch/* ~/.config/fastfetch
+cd ../kitty
+cp -r ./* ~/.config/kitty/
+p10k configure
+p3
+cd backup/dotfiles/.config
+ls .config/mpv
+cd .config/mpv
+cp mpv/* ~/.config/mpv
+cp -r mpv/* ~/.config/mpv
+mkdir -p ~/.config/plasma-workspace\
+echo "[Sounds]" > ~/.config/plasma-workspace/plasma.conf\
+echo "No sound=true" >> ~/.config/plasma-workspace/plasma.conf\
+
+pavucontrol
+yay -S waybar wofi hyprpaper hyprcursor hyprutils hyprwayland-scanner power-profiles-daemon grim slurp hyprpicker xdg-desktop-portal-wlr
+yay -S waybar wofi hyprpaper hyprutils hyprwayland-scanner power-profiles-daemon grim slurp hyprpicker xdg-desktop-portal-wlr
+yay -S waybar wofi hyprpaper hyprwayland-scanner power-profiles-daemon grim slurp hyprpicker xdg-desktop-portal-wlr
+yay -S waybar wofi hyprpaper power-profiles-daemon grim slurp hyprpicker xdg-desktop-portal-wlr
+yay -S hyprshot-git
+yay -S nwg-look
+vim ~/mimeapps.list
+vim ~/swaimg.desktop
+rm -rf kitty-backup-back-up_0415_1101
+ls cfg_backups
+rm -rf cfg_backups
+ls btop
+rm -rf btop-backup-back-up_0415_1101
+yay wl-clipboard
+git clone https://github.com/sk-pathak/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim
+rm mimeapps.list
+mv swaimg.desktop .config/swayimg.desktop
+l
+yay -Q | grep kvantum
+yay bat
+mkdir bat
+mkdir themes
+rm -rf themes
+mkdir bat/themes
+vim bat/themes/matugen-bat-colors.tmTheme
+ls dotfiles
+cd dotfiles
+cd etc
+rm -rf etc
+sudo rm -rf etc
+cd packages
+vim aurlist.txt
+yay -S hoppscotch-bin
+yay rofi
+rofi
+rofi --show-drun
+rofi -show-drun
+vim pkglist.txt
+yay archlinux-keyring
+fd
+yay -S avidemux-qt axel ventoy-bin
+rm -rf dotfiles
+sudo rm -rf dotfiles
+git clone https://github.com/Abhra00/Matuprland/
+cp Matuprland/hypr/* ~/.config/hypr
+cp -r Matuprland/hypr/* ~/.config/hypr
+cd config 
+ls modules
+v
+vim .config/hypr/hyprland.conf
+vim modules/variables.conf
+vim modules/programs.conf
+dolphin
+cd waybar
+cp -r ~/Matuprland/waybar/* .
+ps -e | grep wayb
+kill waybar
+kill 1550
+waybar &
+waybar & disown
+vim hyprland.conf
+vim modules/settings.conf
+ls /var/cache/pacman
+ls /var/cache/pacman/pkg
+rm -rf /var/cache/pacman/pkg/*
+sudo rm -rf /var/cache/pacman/pkg/*
+vim /etc/sddm.conf.d/theme.conf.user
+yay -S update-grub
+yay
+sudo fsck -f /dev/nvme0n1p4
+svim /etc/systemd/journald.conf
+sudo rm -rf /var/log/journal/*
+ls /var/log/journal
+svim /usr/share/consolefonts/cava.psf
+svim /etc/default/grub.hyde.bkp
+sudo update-grub
+sudo reboot
+cd /etc/default
+sudo rm grub.hyde.bkp
+vim pcscd
+vim sndiod
+vim useradd
+systemd-analyze blame\
+
+systemd-analyze critical-chain
+mount
+mount | grep ntfs\
+
+genfstab -U /
+svim /etc/fstab
+yay -Rns waybar
+yay -Q | grep grim
+yay -Q | grep ble
+yay -Q | grep blu
+yay -Rn blueman
+yay aylurs-gtk-shell-git
+yay -S wireplumber libgtop dart-sass wl-clipboard networkmanager upower brightnessctl matugen swww hyprsunset hyprpicker grimblast
+yay pywal
+rm -rf Sync
+vim bashrc/00-init
+vim bashrc/10-aliases
+yt-dlp --help
+yt-dlp --help | grep --no-m
+yt-dlp --help | grep "--no-m"
+yt-dlp --help | grep -no-m
+yt-dlp --help | grep no-m
+vim bashrc/20-customization
+vim bashrc/30-autostart
+rm -rf bashrc
+vim bat/
+ls bat/themes
+mv bat/themes/matugen-bat-colors.tmTheme ~/.config/bat/themes/matugen-bat-colors.tmTheme
+bat
+bat dolphinrc
+yay --Rns grub-update
+yay -Rns update-grub
+rm -rf bat
+lbrynet
+sgrep
+grep --help
+tldr rg
+yay man
+yay -Rns perl
+yay -Rns baloo
+vim foot/foot.ini
+vim foot/matugen/matugen-foot-colors.ini
+cd kitty
+vim current-theme.conf
+vim scroll_mark.py
+vim kitty-themes/.tools
+vim kitty-themes/README.md
+cp -r *.py *.conf kitty-themes backup
+ls backup
+rm -rf current-theme.conf scroll_mark.py search.py theme.conf kitty-themes
+cd Matuprland
+rm -rf foot
+rm -rf swayimg.desktop waybar tmux swaync README.md mimeapps.list 
+cd fastfetch
+mkdir alt
+rm ./* ~/.config/fastfetch/alt
+mv ./* ~/.config/fastfetch/alt/
+ls alt
+rm -rf fastfetch
+ls gtk-3.0
+mv gtk-3.0/* ~/.config/gtk-3.0
+vim gtk-3.0/settings.ini
+yay -Q | grep biba
+yay -Q | grep Biba
+yay bibata
+ls ~/.local/share/icons
+mv ~/Downloads/Bibata-Modern-Classic.tar.xz ~/.local/share/icons
+cd ~/.local/share/icons
+ex Bibata-Modern-Classic.tar.xz
+rm -rf Bibata-Modern-Classic.tar.xz
+ls Bibata-Modern-Classic
+ls Bibata-Modern-Ice
+ls Bibata-Modern-Ice/hyprcursors
+cp -rf Bibata-Modern-Ice/hyprcursors Bibata-Modern-Classic
+rm -rf gtk-3.0
+lazygit
+rm -rf lazygit
+mkdir backup
+mv config.toml backup
+rm config.*
+cp matugen/* ~/.config/matugen
+cp -r matugen/* ~/.config/matugen
+rm -rf librewolf
+vim shell/profile
+vim ~/.zprofile
+zshc
+rm ~/.zprofile
+rm -rf shell
+mv Kvantum ~/.config
+vim Kvantum/kvantum.kvconfig
+vim cava/config
+mv cava ~/.config
+rm -rf cava
+mv -f cava ~/.config
+rm -rf Thunar
+mv qt* ~/.config
+rm -rf starship 
+yay gwenview
+yay -Rns gwenview imv swayimg
+hyprshot
+vim /usr/share/hyprpanel/scripts/snapshot.sh
+yay sxiv
+yay -Rns sxiv
+yay vimiv
+yay -Rns vimiv
+yay viewnior
+yay qView
+yay -Rns qview
+yay -Rns viewnior
+yay imv
+yay -Rns imv
+yay qimgv
+yay feh
+yay -Rns feh
+rm swayimg.desktop
+mv swayimg swappy ~/.config
+yay swayimg
+swayimg
+swayimg -h
+vim swayimg/config
+rm -rf swayimg
+yay -Rns swayimg
+rm -rf zathura
+vim zsh/.zshrc
+yay -Rns code
+yay -Q | grep cod
+yay -S vscodium
+codium
+vim zsh/zaliases
+mkdir -h
+mkdir --help
+dmesg
+fzf
+grep
+cat .zshrc | grep d
+cat .zshrc
+cd zsh
+zsh --help
+zsh --help | grep conf
+mv .zshrc .zshrc.bak
+mv .zshrc ~/
+zle
+vim ~/.zshrc.bak
+rm .zshrc
+mv .zshrc.bak .zshrc
+ls 
+rm -rf zsh
+yay yazi
+mv yazi ~/.config
+mv rofi ~/.config
+yay wlogout
+ls bin
+mv wlogout ~/.config
+rm -rf Code\ -\ OSS
+rm gwenviewrc
+rm -rf viewnior
+vim jpg-to-png.sh
+convert --help
+vim png-to-jpg.sh
+vim shebang.sh
+./shebang.sh
+vim swayimg-hyprland.sh
+./sysfetch.sh
+vim sysfetch.sh
+rm jpg-to-png.sh png-to-jpg.sh shebang.sh swayimg-hyprland.sh
+vim tty-color-tool.sh
+./tty-color-tool.sh
+./tty-color-tool.sh get
+./tty-color-tool.sh ansi-show
+rm tty-color-tool.sh
+vim sysmaintenance.sh
+./sysmaintenance.sh
+yay -Rns vulkan-headers
+yay -Rns vala
+yay -Rn vala
+yay -Rn scdoc
+yay -Rn qview-debug
+yay -Rn pokego-bin-debug
+yay -Rn matugen-bin-debug
+yay -Rn hyprland-protocols-git
+yay -Rn gtk-doc
+yay -Rn python-pygments
+yay -Rn graphviz
+yay -Rn ghostscript
+yay -Rn poppler-data
+yay -Rn nautilus-gnome-disks
+yay -Rn nautilus-python
+yay -Rn nautilus
+yay -Rn localsearch
+yay -Rn poppler
+yay -Rn poppler-qt6
+yay -Rn kfilemetadata
+yay -Rn poppler-glib
+yay -Rn gts
+yay -Rn ijs
+yay -Rn netpbm
+yay -Rn libpaper
+yay -Rn libidn
+yay -Rn gd
+yay -Rn libheif
+yay -S gd
+yay -Rn libde265
+yay -Rn jbig2dec
+yay -Rn gsfonts
+yay -Rn glib2-docs
+yay -Rn docbook-xsl
+yay -Rn docbook-xml
+mv sysfetch.sh ~/.local/bin/sysfetch
+mv sysmaintenance.sh ~/.local/bin/sysmaintenance
+ld
+rm -rf bin
+hypr
+rm -rf Matuprland
+cd kitty/
+vim kitty.conf
+yay -Q | grep ttf
+ls /usr/share/icons
+ls /usr/share/fonts/
+ls ~/.local/share/fonts
+ls ~/.local/share/fonts/JetBrains
+swww img /mnt/part1/Camera/Wallpaper/lastnigold_Street\ in\ japan.\ \[3840x2160\]_13rchg2.jpg
+git clone https://github.com/InioX/matugen.git
+yay cargo
+cargo install --path . --features dump-json
+yay -Rns matugen
+yay -Rns matugen-bin
+cd ~/.cargo/bin
+./matugen
+sudo ln -s /home/$USER/.cargo/bin/* /usr/bin
+vim hyprpanel_config.json
+vim modules/animations.conf
+vim modules/animations/HYDE\ -\ classic.conf.conf
+cd modules
+vim decorations.conf
+vim inputs.conf
+vim monitors.conf
+vim programs.conf
+vim variables.conf
+nwg-look
+vim windowrules.conf
+cd cofnig
+cd hypr
+vim modules/workspacerules.conf
+vim hypridle.conf
+matugen image
+vim matugen/matugen-hyprlock.conf
+vim greeting.sh
+vim theme.conf
+cd matugen
+vim matugen-hyprland.conf
+cd scripts
+vim airplaneMode.sh
+vim backlight.sh
+vim refresh.sh
+vim matugenMagick.sh
+vim wlogout.sh
+vim songdetail.sh
+vim wallSelect.sh
+vim wlogout/matugen-wlogout.css
+matugen image ~/.config/hypr/hyprlock/assets/wallpaper.jpg
+vim matugen/config.toml
+rofi -show drun
+vim hypr/modules/keybinds.conf
+vim .config/hypr/matugen/matugen-hyprland.conf
+YAY MESA-VDPAU
+yay mesa-vdpau
+yay -Q | grep mesa
+yay libva-mesa
+echo $LIBVA_DRIVER_NAME
+echo $XDG_SESSION_TYPE
+yay libva-utils
+vainfo | grep driver
+journalctl -b | grep -i hypr
+yay -Rns firefox
+fastfetch
+yay xdg-desktop-portal
+yay -Rn xdg-desktop-portal-gtk
+yay -Rn xdg-desktop-portal-kde
+yay sddm
+sudo systemctl start sddm
+nano .zshrc
+yay intel
+yay libva-intel
+yay vulkan-intel
+yay intel-media
+lsmod
+lsmod | grep i
+lsmod | grep inte
+sudo modprobe 
+sudo modprobe  -h
+sudo modprobe  -a
+lsmod | grep iHD
+sudo modprobe i915
+lsmod | grep i9
+Hyprland
+vim ~/.config/zsh/.zshrc
+vim ~/.config/hypr/modules/monitors.conf
+ls matugen
+rm -rf matugen
+vim /usr/share/wayland-sessions/hyprland.desktop
+vim /usr/share/wayland-sessions/hyprland-uwsm.desktop
+uwsm -h
+sudo rm plasma.desktop hyprland-uwsm.desktop
+vim hyprland.desktop
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+vim baloofileinformationrc
+vim .config/hypr/modules/settings.conf
+hyprctl setcursor Bibata-Modern-Classic 22
+ls sddm-astronaut-theme
+rm -rf sddm-astronaut-theme
+vim .config/nvim/lua/kickstart/plugins/cmp.lua
+yay plymouth
+which update-grub
+yay plymouth-x11
+yay plymouth-plug
+yay plymouth-theme-bl
+lsa
+cd /usr/share/plymouth/themes
+sudo plymouth-set-default-theme -R black_hud
+cd black_hud
+svim black_hud.script
+svim /etc/plymouth/plymouthd.conf
+mv ~/Downloads/img.icons8.png ./arch-logo.png
+sudo mv ~/Downloads/img.icons8.png ./arch-logo.png
+plymouthd; plymouth --show-splash; sleep 5; plymouth --quit
+sudo plymouthd; plymouth --show-splash; sleep 5; plymouth --quit
+sudo plymouth --ping && echo "Plymouth is running"\
+
+sudo plymouth-set-default-theme --list\
+
+sudo systemctl enable sddm
+svim /etc/sddm.conf.d/theme.conf.user
+cd /usr/share/wayland-sessions/
+svim hyprland-uwsm.desktop
+sudo rm hyprland-uwsm.desktop
+sudo systemctl restart sddm\
+
+sddm-greeter-qt6 --test-mode
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme
+svim /etc/grub.d/10_linux
+svim /etc/grub.d/README
+cd /etc/sddm.conf.d
+rm -rf ./*
+sudo rm -rf ./*
+sudo systemctl status sddm
+cat /etc/sddm.conf
+svim /etc/sddm.conf
+yay kvantum
+yay -S kvantum-qt6-git
+kvantum
+dolphin -style kvantum
+yay nemo
+vim .config/qt5ct/qt5ct.conf
+cd .config/qt5ct/colors
+vim matugen-qt5ct.conf
+yay papirus-dark
+yay papirus
+yay -Rns dolphin
+yay -Rns qt6ct
+yay -Rns qt5ct
+sysmaintenance
+yay libpw
+find /usr/bin -type f -executable -exec ldd {} \; 2>/dev/null | grep Qt\
+
+obs
+rqbit
+yay -Rns rqbit
+rqbit-desktop
+yay qbit
+qbittorrent
+yay -Rns rqbit-desktop
+vim qt5ct/qt5ct.conf
+vim qt6ct/qt6ct.conf
+rm -rf waybar
+code
+git clone https://github.com/sk-pathak/workSync-backend
+vim zsh/.aliasrc
+vim .config/zsh/.zshrc
+vim .config/hypr/modules/autostart.conf
+vim .config/hypr/modules/programs.conf
+xdg-open
+xdg-open $HOME/Downloads
+bash -c "xdg-open $HOME/Downloads/"
+vim .config/hypr/hypridle.conf
+hyprlock --help
+hyprlock
+yt-dlp 'https://manifest-gcp-us-east4-vop1.fastly.mux.com/In01kzokMDgIW4IAfd01No5AXzAFhIMs0002ojUTDyBZjeV2pHjFI5Hy138oO2v3xmoKIzGMnh1CyYidIl00jLDkSGm01B01bHUC01fv/rendition.m3u8?cdn=fastly&expires=1744995600&rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjgwMjg1MTBfMjY0Yjg0NzZjZGIxNDg2ZDM2YjZkOGY3MDA1YjBmNDIzNzI4MjBiODNiYmZjM2VkMDgwM2M1NjhiMmMyMGMzNQ=='
+chmod +x yt-dlpp
+yt-dlp --help | grep max
+yt-dlp --help | grep infi
+yt-dlp --help | grep retr
+cat zsh_history
+cat zsh_history | tail -n10
+.local/bin
+cd .local/bin
+vim yt-dlpp
+cd ~\
+\
+mv .zsh_history .zsh_history_bad\
+\
+strings .zsh_history_bad > .zsh_history\
+\
+fc -R .zsh_history\
+\
+rm ~/.zsh_history_bad\
+
+mv .zsh_history .zsh_history_bad
+strings .zsh_history_bad > .zsh_history
+fc -R .zsh_history
+rm ~/.zsh_history_bad
+vim zsh_history
+code zsh_history
+yt-dlpp 'https://manifest-gcp-us-east4-vop1.fastly.mux.com/In01kzokMDgIW4IAfd01No5AXzAFhIMs0002ojUTDyBZjeV2pHjFI5Hy138oO2v3xmoKIzGMnh1CyYidIl00jLDkSGm01B01bHUC01fv/rendition.m3u8?cdn=fastly&expires=1744995600&rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjgwMjg1MTBfMjY0Yjg0NzZjZGIxNDg2ZDM2YjZkOGY3MDA1YjBmNDIzNzI4MjBiODNiYmZjM2VkMDgwM2M1NjhiMmMyMGMzNQ=='
+yay spotify --cleanafter
+yay spicetify --cleanafter
+spicetify-marketplace-bin
+spicetify
+spicetify path
+yay qalculate
+which spotify
+sudo spicetify backup apply
+sudo chmod a+wr /opt/spotify\
+sudo chmod a+wr /opt/spotify/Apps -R
+spicetify backup apply
+vim .config/spicetify/config-xpui.ini
+yay -Rns spicetify-marketplace-bin
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+spicetify apply
+/opt/spotify
+spotify
+curl -fsSL https://raw.githubusercontent.com/Astromations/Hazy/main/install.sh | sh\
+
+yay -Rns spotify
+spicetify restore
+rm -rf ~/.spicetify
+rm -rf ~/.config/spicetify
+vim .zshrc
+cat
+source ~/.zshrc
+yay -Rns vlc
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+lsblk
+yay -Rns ark
+yay -Rns kvantum-qt5
+yay -Rns kvantum-git
+yay -Rns yazi
+yay -S yazi
+cd config
+vim yazi/init.lua
+vim yazi/theme.toml
+cd yazi
+vim keymap.toml
+vim plugins/lazygit.yazi
+vim plugins/lazygit.yazi/main.lua
+vim yazi.toml
+vim .config/hypr/modules/keybinds.conf
+vim .config/hypr/modules/windowrules.conf
+vim package.toml
+vim plugins/git.yazi/main.lua
+vim main.lua
+vim init.lua
+cd .config/yazi/plugins/git.yazi
+rm ./*
+rm -rf plugins init.lua
+mv ~/Downloads/catppuccin-mocha-lavender.toml theme.toml
+vim theme.toml
+mv ~/Downloads/Catppuccin\ Mocha.tmTheme .
+mv Catppuccin\ Mocha.tmTheme Catppuccin-mocha.tmTheme
+hyprctl keyword
+hyprctl keyword --help
+mpd
+sudo systemctl status mpd
+sudo systemctl enable mpd
+sudo systemctl start mpd
+vim .ncmpcpp/config
+svim .ncmpcpp/config
+ls .config
+la .config
+mv .ncmpcpp .config/ncmpcpp
+sudo mv .ncmpcpp .config/ncmpcpp
+chown .config/ncmpcpp
+chown --help
+sudo chown -R sumit_pathak .config/ncmpcpp
+la .mpd
+svim .mpd/mpd.conf
+mv .mpd .config/mpd
+sudo mv .mpd .config/mpd
+sudo chown -R sumit_pathak .config/mpd
+sudo systemctl stop mpd.service && sudo systemctl disable mpd.service
+systemctl disable mpd.socket
+systemctl --user start mpd.service && systemctl --user enable mpd.service
+nmap --help
+nmap -sV -O 127.0.0.1
+sudo nmap -sV -O 127.0.0.1
+sudo nmap -O 127.0.0.1
+vim .config/ncmpcpp/config
+vim .config/ncmpcpp/config-copy
+rm .config/ncmpcpp/config-copy
+vim .config/ncmpcpp/error.log
+rm .config/ncmpcpp/error.log
+rm .config/ncmpcpp/lyrics/KK\ -\ Aashayein.txt
+vim .config/mpd/database
+vim .config/mpd/mpd.db
+vim .config/mpd/mpd.log
+vim .config/mpd/state
+vim .config/mpd/mpd.conf
+rm -rf .cargo
+matugen
+yay -Rns cargo
+yay -Rns rust
+cd /usr/bin
+rm matugen
+sudo rm matugen
+yay matugen
+yay pnpm
+pnpm i
+ls /usr/bin | grep panel
+ls /bin | grep panel
+/usr/bin/hyprpanel
+ps -e | grep panel
+ps -e | grep hypr
+yay -Rns hyprpanel
+sudo rm /usr/bin/hyprpanel
+yay -S ags-hyprpanel-git
+hyprpanel &
+svim /boot/grub/grub.cfg
+svim /etc/mkinitcpio.conf
+yt-dlpp https://vimeo.com/1073070356/13df9971ba
+svim /etc/default/grub
+ls boot
+ls /boot
+yay tree
+tree /boot
+cd /boot
+tree EFI
+ls grub
+vim grub/grub.hyde.bkp
+sudo rm grub/grub.hyde.bkp
+cd grub
+svim grubenv
+ls ..
+update-grub
+sudo mkinitcpio -p linux
+vim .config/zsh/.aliasrc
+vim .local/bin/sysmaintenance
+sysfetch
+hyprctl reload
+yay qemu --cleanafter
+yay virt-manager
+sudo systemctl enable --now qemu
+egrep -c '(vmx|svm)' /proc/cpuinfo
+grep -c '(vmx|svm)' /proc/cpuinfo
+sudo systemctl start libvirt
+sudo systemctl start libvirtd
+sudo usermod -aG libvirt $(whoami) && sudo usermod -aG kvm $(whoami)
+sudo virsh net-list --all
+sudo virsh net-start default 
+yay -Rns qemu-full
+yay -Rns virt-manager
+yay -Rns virt-manager-git
+yay -S gst-plugins-good python-cairo cpio libisoburn
+yay -S wine winetricks wine-mono wine-gecko
+wine
+wine Downloads/unstopsmarthire-1.0.16.exe
+wine winecfg
+yay -S winegui --cleanafter
+yay -S winegui-bin --cleanafter
+lspci | grep VGA
+playerctl -l
+yay -S mpdris2\
+
+svim ~/.config/systemd/user/mpd-mpris.service
+systemctl --user enable mpd-mpris.service\
+systemctl --user start mpd-mpris.service\
+
+playerctl -l\
+
+hyprpanel -q; hyprpanel\
+
+systemctl --user disable mpd-mpris.service\
+systemctl --user stop mpd-mpris.service\
+
+yay -Rns mpdris2
+vim .config/hypr/scripts/backlight.sh
+svim .config/hypr/scripts/backlight.sh
+btop
+timedatectl
+lscpu
+lspci -v
+yay dmidecode
+sudo dmidecode -t baseboard
+sudo dmidecode -t bios
+dmesg | grep 'firmware|bios|efi|acpi'
+sudo dmesg | grep 'firmware|bios|efi|acpi'
+yay fwupd --cleanafter
+sudo fwupdmgr get-devices
+sudo fwupdmgr get-history
+sudo fwupdmgr 
+sudo fwupdmgr --help
+sudo fwupdmgr sync
+le
+yay intel-media-va
+yay intel-media-driver
+vim .config/hypr/modules/variables.conf
+vim .config/hypr/modules/decorations.conf
+vim .config/hypr/modules/monitors.conf
+vim .config/hypr/modules/inputs.conf
+cd .config/hypr/modules
+fd -help
+fd --help
+fd -h
+fd vfr
+fd -R vfr
+fd -R . 'vfr'
+grep -rnw . -e 'vfr'
+vim settings.conf
+astal-power-profiles
+ls /sys/devices/system/cpu/cpu*/cpufreq/scaling_driver\
+
+yay zram
+svim /etc/systemd/zram-generator.conf
+sudo systemctl enable systemd-zram-setup@zram0.service
+sudo systemctl start systemd-zram-setup@zram0.service
+sysctl vm.swappiness
+sysctl -w vm.swappiness=90
+sudo sysctl -w vm.swappiness=90
+svim /etc/sysctl.d/99-swappiness.conf
+free -h
+mpv 'https://www.youtube.com/watch?v=wZ5aMQyEvQw'
+cd Documents
+cd study
+which xdg-open
+xdg-settings get default-web-browser\
+
+xdg-open https://www.google.com\
+
+vim .config/nvim/lua/keymaps.lua
+vim Leetcode\ Company\ Wise\ Problems\ -\ Updated\ as\ of\ March\ 2025\ -\ Krishan\ Kumar
+ncmpcpp
+swapon --show
+cd github
+cd testing
+git clone git@github.com:syncthing/syncthing.git
+sudo docker pull syncthing
+sudo usermod -aG docker $(whoami) 
+sudo usermod -aG docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+sudo systemctl start docker.service
+docker pull syncthing
+docker pull syncthing/syncthing
+docker run --rm -it syncthing/syncthing:latest
+sudo docker ps
+sudo docker attach -it af3bbcd4401d /bin/bash
+sudo docker attach -t af3bbcd4401d /bin/bash
+sudo docker attach af3bbcd4401d /bin/bash
+sudo docker attach af3bbcd4401d
+docker run --rm -p 8385:8384 syncthing/syncthing:latest
+sudo docker exec -it 4cd5eb841b33 /bin/bash
+sudo docker exec -it 4cd5eb841b33 /bin/sh
+vim
+nvim .
+yt-dlpp 'https://manifest-gcp-us-east1-vop1.fastly.mux.com/EhvID701wh3OaBDFzZ02tzAZRyHmOS6GtGJfIR00dXzuAukImN01IUCAJt00LKqviBLBeZ501Kz3GJNy3bmPwF01100HYiuo8a00NY7xT/rendition.m3u8?cdn=fastly&expires=1745154000&rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjgwNGVmZDBfOTM2ZGJhNjEzMjgwMDBlYzFlOWU3YmRlNDQzOThhNTUzMTIwYTQ0NTkyYWU0ZDQyZTM5YzM4MmM5YmJjNzdhMg=='
+vim .gitconfig
+vim .git-credentials
+\:q
+vim build.sh
+vim build.go
+yay go --cleanafter
+go build ./build.go
+vim .config/hypr/hyprlock.conf
+mv hyprlock.conf hyprlock.con.bakf
+vim hyprlock.con.bakf
+cd config hypr hyprlock
+vim mocha.conf
+vim hyprlock.conf
+yay -Rns wine wine-gecko wine-mono winetricks
+yay -S lib32-gcc-libs --cleanafter
+zen-browser
+cp sumit_pathak.face.icon sumit_pathak.jpg
+rm sumit_pathak.jpg
+vim syncthing-folder-29f743.txt
+cd hyprlock
+kitty +kitten show_key
+groups
+sudo systemctl start docker.socket
+sudo systemctl enable docker.socket
+sudo systemctl disable docker.service
+sudo systemctl stop docker.service
+rm -rf ~/.cache/nvim
+sudo rm -rf ~/.cache/nvim
+cd github/testing/syncthing
+docker rmi syncthing/syncthing:latest
+journalctl -b -1 -p err..alert\
+
+sudo mkdir -p /var/log/journal\
+
+sudo systemd-tmpfiles --create --prefix /var/log/journal\
+
+sudo systemctl restart systemd-journald\
+
+journalctl --list-boots\
+
+journalctl -b 0
+journalctl -b 0 -p err..alert\
+
+dmesg | grep -i ahci\
+
+sudo dmesg | grep -i ahci\
+
+yay -Q | grep unst
+yay -Rns dunst
+yay -Q | grep mako
+yay -Rns python-mako
+yay -Rn python-mako
+svim /usr/share/dbus-1/services/hyprpolkitagent.service
+systemctl --user restart dbus-broker\
+
+busctl --user | grep hypr\
+
+yay hyprpolkit
+git clone git@github.com:sk-pathak/hyprpolkitagent.git
+cd hyprpolkitagent
+grep -Ri 'hyprpolkitagent'\
+
+grep -i 'hyprpolkitagent'\
+
+rm -rf hyprpolkitagent
+vim ~/.zshrc
+vim config hypr
+cd config hypr
+vim modules/keybinds.conf
+vim modules/autostart.conf
+vim ~/.cache/hypr/hyprland.log\
+
+journalctl -b -1 | grep -iE 'kitty|hypr|segfault|oom|gpu'\
+
+journalctl -b -1 | grep -i 'kitty|hypr|segfault|oom|gpu'\
+
+journalctl -b 0 | grep -i 'kitty|hypr|segfault|oom|gpu'\
+
+journalctl -b 0 | grep -i 'xdg-desktop-portal-hyprland'\
+
+rm ~/.config/zsh/.zshrc
+ln -s ~/.config/zsh/.zshrc ~/.zshrc\
+
+ln -s ~/.zshrc ~/.config/zsh/.zshrc
+nemo --no-desktop\
+
+nemo
+vim mpv-10.desktop
+vim userapp-nvim-4C4D52.desktop
+vim mpv-8.desktop
+mv userapp-nvim-4C4D52.desktop nvim.desktop
+chmod +x nvim.desktop
+rm mimeinfo.cache
+vim .config/mimeapps.list
+yay -Q | grep gnome
+yay -Q | grep nemo
+yay -Q | grep ima
+yay -Q | grep eog
+yay -Q | grep e
+ps -e | grep ico
+ps -e | grep sum\
+
+ps -e
+loupe
+rm mpv-10.desktop mpv-11.desktop mpv-12.desktop mpv-13.desktop mpv-2.desktop mpv-3.desktop mpv-4.desktop mpv-5.desktop mpv-6.desktop mpv-7.desktop mpv-8.desktop mpv-9.desktop 
+rm -rf wine-*
+rm -rf zen-*
+vim vesktop.desktop
+vim nemo.desktop
+vim loupe.desktop
+chmod 644 nvim.desktop
+vim nvim.desktop
+rm -rf syncthing HyprPanel
+git clone git@github.com:sk-pathak/syncthing.git
+git clone git@github.com:sk-pathak/HyprPanel.git
+yt-dlpp 'https://n2.kemono.su/data/fd/5c/fd5cdf53c30c97fa59bdae7f22434ff3378a2d0f96aecbd3dc18061ed8342aa2.mp4?f=421009839.mp4'
+vim meson.build
+meson build --prefix=$HOME/hyprpanel-build\
+
+meson build --prefix=./hyprpanel-build\
+
+meson build --prefix=$HOME/github/testing/HyprPanel/hyprpanel-build\
+
+meson setup --reconfigure
+meson setup --wipe
+ls ~
+ls hyprpanel-build
+Downloads
+yt-dlpp 'https://n4.kemono.su/data/eb/8c/eb8c84476882de3793d87bd9787a5a72c505153969aee75183cea604832693ce.mp4?f=421526046.mp4'
+cd HyprPanel
+cd bin
+meson setup build
+pwd
+cd /home/sumit_pathak/github/testing/HyprPanel
+cd hyprpanel-build
+cd src
+yt-dlpp 'https://n2.kemono.su/data/19/9b/199bcefa2d26f900686ad7501d8d9b673ef1c750813a28cf335424d9f9533b32.mp4?f=425156955.mp4'
+vim .
+cd ../..
+hyperpanel
+nohup hyprpanel > /dev/null 2>&1 &\
+
+cd hyprpanel-build/bin
+hyprpanel --sw
+hyprpanel -sw
+meson compile -C build
+meson install -C build
+./hyprpanel
+vim zen-browser.desktop
+vim mpv.desktop
+cd .config
+vim mimeapps.list
+cd .local/share/applications
+mv zen-browser.desktop zen.desktop
+update-desktop-database ~/.local/share/applications/\
+
+vim mimeinfo.cache
+yay -Q | grep rq
+yay -Q | grep dco
+yay -Q | grep kde
+yay -Q | grep swap
+yay -Q | grep zat
+yay -Q | grep ark
+hyprpanel --help
+hyprpanel -i
+hyprpanel -I
+hyprpanel -q
+hyprpanel
+testing
+git clone git@github.com:sk-pathak/assets.git
+mv ~/Downloads/*.png .
+mv ./*.png assets
+cd assets
+git add .
+git commit -m "added images"
+rm -rf assets
+cd github/testing/
+git clone git@github.com:sk-pathak/spicy-scripts.git
+vim README.md
+zshrc
+gc
+which gc
+git config --global alias.cam '!git add . && git commit -am'\
+
+svim .gitconfig
+git cam "added http parser"
+cd github/testing/spicy-scripts
+git clone --recursive https://github.com/zeek/spicy
+./configure && make && make install
+cd build
+make && make install
+mkdir spicy-git
+vim .SRCINFO
+vim ~/.ssh
+svim ~/.ssh
+cd ~/.ssh
+ssh-keygen -f ~/.ssh/aur
+sudo ssh-keygen -f ~/.ssh/aur
+vim id_rsa.pub
+vim known_hosts
+vim known_hosts.old
+vim aur.pub
+git -c init.defaultBranch=master init
+git remote add label ssh://aur@aur.archlinux.org/pkgbase.git
+vim id_rsa
+LC_ALL=C pacman -V|sed -r 's#[0-9]+#81b#g'|md5sum|cut -c1-6
+ssh-keygen -t ed25519 -C "sumitpathak2002@gmail.com"
+sudo ssh-keygen -t ed25519 -C "sumitpathak2002@gmail.com"
+vim aur
+LC_ALL=C pacman -V|sed -r 's#[0-9]+#81b#g'|md5sum|cut -c1-6\
+\
+
+svim aur
+svim aur.pub
+ssh aur@aur.archlinux.org\
+
+sudo ssh aur@aur.archlinux.org\
+
+chmod 755 aur aur.pub
+sudo chmod 755 aur aur.pub
+ssh -v aur@aur.archlinux.org\
+
+sudo chown -R $USER:$USER ~/.ssh\
+chmod 700 ~/.ssh\
+chmod 600 ~/.ssh/known_hosts\
+
+sudo chown -R $USER ~/.ssh\
+chmod 700 ~/.ssh\
+chmod 600 ~/.ssh/known_hosts\
+
+sudo chmod 644 aur aur.pub
+sudo chmod 600 aur aur.pub
+ssh aur@aur.archlinux.org
+cd -
+git remote add origin ssh://aur@aur.archlinux.org/spicy-git.git
+git add PKGBUILD .SRCINFO\
+git commit -m "Initial commit"\
+git push origin master\
+
+journalctl -u docker.service --no-pager --since "5 minutes ago"\
+
+jq . /etc/docker/daemon.json\
+
+sudo jq . /etc/docker/daemon.json\
+
+systemctl enable containerd\
+
+systemctl status containerd\
+
+cd .ssh
+sudo chmod 600 *
+sudo systemctl status docker.service
+docker pull arch
+sudo dockerd\
+
+grep overlay /proc/filesystems\
+
+sudo modprobe overlay\
+
+sudo systemctl start docker\
+
+cd github/projects
+p1
+cd Camera/Wallpaper
+git clone git@github.com:sk-pathak/wallpapers.git
+cd github/testing
+mv testing opensource
+cd opensource
+docker images
+cd syncthing
+lw
+docker build -t syncthing .
+docker images 
+docker run --rm -p 8385:8384 syncthing
+docker run --rm -p 8385:8384 syncthing:latest
+docker run syncthing:latest
+yazi
+git pull
+cd .local/state/syncthing
+vim config.xml
+git clone git@github.com:sk-pathak/Zeno.git
+mv Dockerfile Dockerfile.bak
+vim Dockerfile
+vim docker-compose.yml
+go build -o main .
+cd Zeno
+vim main.go
+vim cmd/cmd.go
+./main get url https://www.france.fr
+docker images -a
+go build ./main.go
+./main
+rm main
+docker ps -a
+docker start zeno-go-app-1 /bin/bash
+docker start zeno-go-app-1
+docker ps
+docker compose up --build
+docker images prune
+docker compose up
+docker run -it --entrypoint /bin/sh zeno-go-app:latest
+docker compose down
+docker rm $(docker ps -aq)
+docker rmi $(docker images -aq)
+docker image prune
+timedatectl set-ntp true
+reboot
+yt-dlpp 'https://n4.kemono.su/data/d5/c3/d5c3ec7b70098617e1813fcec10a98c26c0fe73ee1c9425235bac94bd8606622.mp4?f=426597952.mp4'
+yt-dlpp 'https://n3.kemono.su/data/38/36/3836b1deec85f5ada719a3498a9beaa49a28d3b225e9098307f5a839f0393aba.mp4?f=427933350.mp4'
+yt-dlpp 'https://n3.kemono.su/data/94/42/9442ece1bb5e7ff0de5f5c3c3070f8b3af47a6591d519beef9867df9b2e31137.mp4?f=432033170.mp4'
+yt-dlpp 'https://n3.kemono.su/data/9a/3a/9a3a11f018928a78bbc50b4f8bd25e8949783c4d2ff20973520bf3b18678b85c.mp4?f=432168670.mp4'
+yt-dlpp 'https://n1.kemono.su/data/04/ec/04eceab0476f3fe2b3a156d9e9c79b3706c316b6089eaabcf944ef851315dc7f.mp4?f=433434005.mp4'
+yt-dlpp 'https://n1.kemono.su/data/23/09/23092d99658d06b97f78caa43ceada598ebc123411013d19707950222660de71.mp4?f=433504633.mp4'
+yt-dlpp 'https://n3.kemono.su/data/cc/16/cc16b63a425510f710dc52b64ac13d72c25c6573737527cf6ad52a81d4b3a865.mp4?f=439119477.mp4'
+yt-dlpp 'https://n3.kemono.su/data/09/0c/090c4ccf41b132e417d7569934e5d4d21127e0f40129d704e7d0d505149de7d2.mp4?f=439563398.mp4'
+yt-dlpp 'https://n2.kemono.su/data/f4/ef/f4efd61bc182476499bd4b3e31a892383bb3a93cffb77e85e8531caaf4203433.mp4?f=440134966.mp4'
+journalctl -b -1\
+
+yay smartctl
+sudo smartctl -a /dev/nvme0n1
+sudo fwupdmgr get-updates
+sudo fwupdmgr update
+ssh --help
+ssh user@10.10.5.218:80
+ssh user@10.10.5.218:8080
+ssh user@10.10.5.218:443
+ssh user@10.10.5.218
+yay --cleanafter -Syu
+cd ../spicy
+git status
+cd projects
+cd spicy-git
+la
+vim PKGBUILD
+makepkg --printsrcinfo > .SRCINFO\
+
+git add PKGBUILD .SRCINFO\
+git commit -m "Fix build system: use ./configure and build dir per upstream instructions"\
+
+git push
+yay -Sy
+yay spicy
+..
+yay -S spicy-git --rebuild --noconfirm\
+
+makepkg -si
+rm -rf spicy-git
+yay --cleanafter --help
+yay --cleanafter -cc
+yay --cleanafter -c
+yay -c
+cd ~
+cd .cache
+sudo duf
+cd zen
+cd bhtqgkww.Default\ \(release\)
+cd cache2
+cd entries
+cd github/opensource
+cd spicy
+./configure && cd build && make && make install
+mkdir tests
+cd tests
+vim req1.txt
+vim req2.txt
+vim req3.txt
+vim req4.txt
+sudo make && make install
+sudo make install
+cd ..
+cd spicy-scripts
+spicy-driver -p SimpleHTTP::Requests http.spicy
+spicy-driver -p SimpleHTTP::Requests http.spicy < tests/req1.txt
+vim http.spicy
+rm -rf .cache
+cd /var/cache
+rm -rf pacman
+sudo rm -rf pacman
+duf
+cd
+ls /usr/bin
+ls .local/bin
+vim ~/.config/zsh/.aliasrc
+sysfix
+shutdown now
+swww img /mnt/part1/Camera/Wallpaper/Futurist\ city.jpg
+swww img /mnt/part1/Camera/Wallpaper/Futurist_city.jpg
+yay -Syu
+yt-dlpp 'https://manifest-gcp-us-east4-vop1.fastly.mux.com/nDe4NTDwnYfrMVAqJytUDEzYU00ayUW02ZWXx3bxeGvXREDfv00MzXgNw6aU6pdPFEGqkf01e9jkZZn3qN602gswK6fWz93OfWhNF/rendition.m3u8?cdn=fastly&expires=1745604000&rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjgwYmNkYTBfYzM3MzljN2QxOTU1ZDliY2YzZjE1MmMxNTI2NTkwYjgwODQ0NzdiMGIwZmY1YWQwNTFlYmEyMTFlM2Q0Mjc0OA=='
+ssh user@10.10.0.243
+cd Downloads
+vim code.ipynb
+clr
+cat /proc/meminfo
+yay --cleanafter
+vim ~/.config/rofi/scripts/websearch.sh
+vim ~/.config/rofi/scripts/cliphist.sh
+vim ~/.config/rofi/scripts/launcher-style-changer
+vim ~/.config/rofi/scripts/rofiEmoji.sh
+vim ~/.config/hypr/modules/keybinds.conf
+ssh user@10.10.4.118
+code .
+tldr scp
+scp user@10.10.4.118:~/chori.tar.gz ~
+ls
+music
+yt-dlpp 'https://manifest-gcp-us-east1-vop1.fastly.mux.com/KS3l02abDhiZaqaeg01sVjGF3V7lHjY7qt4rRly02zefh01OY2m2zGaebR02AYz3fVIyTbO02LHOZdgFBUhC02jAyX00LjLtEn02J01sIu/rendition.m3u8?cdn=fastly&expires=1745715600&rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjgwZDgxOTBfOTEyOTAzYTlmM2U5MmE4ODM3M2I4MjVjNDZhMmJiOTdlNDg0M2Y3NDNlOTIxOGQ2ZmY3ZTFmOTJhMWJmMGU2MQ=='
+exit
+: 1745627090:0;clr
+: 1745629757:0;yay --cleanafter
+: 1745654235:0;ls
+: 1745654326:0;ex chori.tar.gz
+: 1745654344:0;tar -xvf chori.tar.gz
+: 1745670659:0;yay --cleanafter
+: 1745674290:0;cd github/projects
+: 1745674291:0;ls
+: 1745674363:0;git clone git@github.com:sk-pathak/dotfiles.git
+: 1745674786:0;ls
+: 1745674790:0;cd dotfiles
+: 1745674791:0;ls
+: 1745674929:0;git pull
+: 1745674954:0;ls
+: 1745675246:0;mkdir hyprPanel
+: 1745675250:0;mkdir eww
+: 1745675252:0;ls
+: 1745675255:0;cd hyprPanel
+: 1745675256:0;ls
+: 1745675263:0;vim ../README.md
+: 1745675416:0;ls
+: 1745675871:0;la
+: 1745675918:0;mkdir -p home/sumit_pathak
+: 1745675921:0;ls
+: 1745675928:0;cd home/sumit_pathak
+: 1745675929:0;ls
+: 1745676458:0;cp .zshrc .p10k.zsh .gtkrc-2.0 zsh_history sumit_pathak.face.icon ~/github/projects/dotfiles/hyprPanel/home/sumit_pathak

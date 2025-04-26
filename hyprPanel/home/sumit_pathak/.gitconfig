@@ -1,0 +1,9 @@
+[user]
+	name = Sumit Pathak
+	email = sumitpathak2002@gmail.com
+[credential]
+	helper = store
+[url "git@github.com:"] 
+    insteadOf = https://github.com/
+[alias]
+	cam = !git add . && git commit -am
